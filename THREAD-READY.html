@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Viral Thread — Ready to Post</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#0a0a0f;color:#e5e5e5;font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display',sans-serif;padding:40px;max-width:900px;margin:0 auto}
+h1{font-size:32px;font-weight:800;margin-bottom:10px;color:#fff}
+h1 span{color:#1d9bf0}
+.sub{color:#666;margin-bottom:40px;font-size:14px}
+.tweet{background:#111118;border:1px solid #1a1a25;border-radius:16px;padding:24px;margin-bottom:24px;position:relative}
+.tweet-num{position:absolute;top:12px;right:16px;background:#1d9bf0;color:#fff;font-size:11px;font-weight:700;padding:3px 10px;border-radius:100px}
+.tweet-label{font-size:11px;color:#1d9bf0;font-weight:600;margin-bottom:8px;text-transform:uppercase;letter-spacing:1px}
+.tweet-text{font-size:16px;line-height:1.6;white-space:pre-wrap;margin-bottom:16px}
+.tweet-text a{color:#1d9bf0}
+.card-frame{width:100%;aspect-ratio:1200/675;border:1px solid #1a1a25;border-radius:12px;margin-bottom:12px;overflow:hidden;background:#0a0a0f}
+.card-frame iframe{width:1200px;height:675px;border:none;transform-origin:top left;pointer-events:none}
+.copy-btn{background:#1d9bf0;color:#fff;border:none;padding:8px 20px;border-radius:100px;font-size:13px;font-weight:600;cursor:pointer;transition:all 0.2s;display:inline-block}
+.copy-btn:hover{background:#1a8cd8}
+.copy-btn:active{transform:scale(0.95)}
+.copied{background:#22c55e!important}
+.save-btn{background:#f59e0b;color:#fff;border:none;padding:8px 20px;border-radius:100px;font-size:13px;font-weight:600;cursor:pointer;text-decoration:none;display:inline-block;margin-right:8px;margin-bottom:12px}
+.save-btn:hover{background:#d97706}
+.divider{border:none;border-top:1px solid #1a1a25;margin:40px 0}
+h2{font-size:24px;font-weight:700;margin-bottom:8px;color:#fff}
+h2 span{color:#f59e0b}
+.note{background:rgba(29,155,240,0.08);border:1px solid rgba(29,155,240,0.2);border-radius:12px;padding:16px;margin-bottom:24px;font-size:13px;color:#999;line-height:1.5}
+.note b{color:#1d9bf0}
+.img-note{font-size:12px;color:#f59e0b;margin-bottom:8px}
+</style>
+</head>
+<body>
+
+<h1>🧵 <span>Main Thread</span> — 13 Tweets</h1>
+<p class="sub">Copy each tweet, screenshot the image where shown (Cmd+Shift+4 on Mac). Post as a thread from @SpunkArt13.</p>
+
+<div class="note"><b>Images are embedded below each tweet.</b> Screenshot them directly (Cmd+Shift+4 on Mac) or click "Open Full Size" to view at 1200x675 for a clean capture. All images are Twitter/X optimized.</div>
+
+<!-- TWEET 1 -->
+<div class="tweet" id="t1">
+<span class="tweet-num">1/13</span>
+<div class="tweet-label">Hook Tweet</div>
+<div class="img-note">📸 Screenshot this image:</div>
+<div class="card-frame" id="frame-hero"></div>
+<a href="card-hero.html" target="_blank" class="save-btn">Open Full Size →</a>
+<div class="tweet-text" id="text1">I built 103 websites in 5 days.
+
+$625 total cost.
+Zero coding experience.
+Just a MacBook Air and @AnthropicAI Claude.
+
+Here's exactly how I did it 🧵👇</div>
+<button class="copy-btn" onclick="copyTweet('text1',this)">Copy Tweet</button>
+</div>
+
+<!-- TWEET 2 -->
+<div class="tweet" id="t2">
+<span class="tweet-num">2/13</span>
+<div class="tweet-label">The Setup</div>
+<div class="img-note">📸 Screenshot this image:</div>
+<div class="card-frame" id="frame-tools"></div>
+<a href="card-tools.html" target="_blank" class="save-btn">Open Full Size →</a>
+<div class="tweet-text" id="text2">My entire tech stack:
+
+• MacBook Air M4 (base model)
+• Claude Pro subscription ($20/mo)
+• Claude extra usage ($430)
+• GitHub Pages (FREE hosting)
+• Cloudflare (FREE DNS/SSL/CDN)
+• 103 domains (~$175)
+
+Total monthly cost to run 103 sites: $0
+
+No React. No Next.js. No frameworks. No employees.</div>
+<button class="copy-btn" onclick="copyTweet('text2',this)">Copy Tweet</button>
+</div>
+
+<!-- TWEET 3 -->
+<div class="tweet" id="t3">
+<span class="tweet-num">3/13</span>
+<div class="tweet-label">The Domain Strategy</div>
+<div class="tweet-text" id="text3">Day 1: Bought 103 domains in bulk. Wild TLDs nobody thinks about.
+
+predict.horse
+aliens.beauty
+scam.wiki
+monkey.poker
+stimulant.doctor
+aibot.beer
+
+$1-8 each. Some were $0.99.
+
+The domain IS the brand. No .com needed.</div>
+<button class="copy-btn" onclick="copyTweet('text3',this)">Copy Tweet</button>
+</div>
+
+<!-- TWEET 4 -->
+<div class="tweet" id="t4">
+<span class="tweet-num">4/13</span>
+<div class="tweet-label">The Build</div>
+<div class="img-note">📸 Screenshot this image:</div>
+<div class="card-frame" id="frame-stack"></div>
+<a href="card-stack.html" target="_blank" class="save-btn">Open Full Size →</a>
+<div class="tweet-text" id="text4">Day 2-3: Built the generators.
+
+I told Claude what I wanted. It wrote Python scripts that generate entire websites.
+
+One script → 22 alien sites
+One script → 18 prediction markets
+One script → 12 AI chatbots
+One script → 11 scam exposure sites
+
+Each site: unique content, SEO, analytics, affiliate links, sharing features.</div>
+<button class="copy-btn" onclick="copyTweet('text4',this)">Copy Tweet</button>
+</div>
+
+<!-- TWEET 5 -->
+<div class="tweet" id="t5">
+<span class="tweet-num">5/13</span>
+<div class="tweet-label">The Network Effect</div>
+<div class="tweet-text" id="text5">Day 4: Connected everything into networks.
+
+Every site cross-links to every other site in its network.
+Every network links to every other network.
+103 sites all feeding traffic to each other.
+
+One visitor lands on aliens.beauty → discovers 21 more alien sites → finds predict.horse → finds spunk.bet
+
+It's a web. Not a website.</div>
+<button class="copy-btn" onclick="copyTweet('text5',this)">Copy Tweet</button>
+</div>
+
+<!-- TWEET 6 -->
+<div class="tweet" id="t6">
+<span class="tweet-num">6/13</span>
+<div class="tweet-label">The Casino</div>
+<div class="tweet-text" id="text6">The crown jewel: spunk.bet
+
+A free crypto casino running on Bitcoin Runes.
+
+• 10 games (Crash, Mines, Plinko, Dice, etc.)
+• 10,000 free tokens daily
+• Provably fair
+• Zero fees
+
+All 102 other sites funnel traffic to it.</div>
+<button class="copy-btn" onclick="copyTweet('text6',this)">Copy Tweet</button>
+</div>
+
+<!-- TWEET 7 -->
+<div class="tweet" id="t7">
+<span class="tweet-num">7/13</span>
+<div class="tweet-label">Revenue Streams</div>
+<div class="img-note">📸 Screenshot this image:</div>
+<div class="card-frame" id="frame-results"></div>
+<a href="card-results.html" target="_blank" class="save-btn">Open Full Size →</a>
+<div class="tweet-text" id="text7">Revenue streams across 103 sites:
+
+→ Affiliate links (Stake, Coinbase, Ledger, Amazon)
+→ Crypto tips/donations
+→ Spin wheels that drive affiliate signups
+→ Referral systems on every site
+→ Newsletter signups (Beehiiv)
+→ Google Analytics + Microsoft Clarity on everything
+
+AdSense coming next. Passive income on 103 sites.</div>
+<button class="copy-btn" onclick="copyTweet('text7',this)">Copy Tweet</button>
+</div>
+
+<!-- TWEET 8 -->
+<div class="tweet" id="t8">
+<span class="tweet-num">8/13</span>
+<div class="tweet-label">Every Domain Part 1</div>
+<div class="img-note">📸 Screenshot this image:</div>
+<div class="card-frame" id="frame-alldomains"></div>
+<a href="card-all-domains.html" target="_blank" class="save-btn">Open Full Size →</a>
+<div class="tweet-text" id="text8">Every domain — part 1:
+
+🔮 Predict Network (18): predict.horse, predict.codes, predict.beauty, predict.autos, predict.boats, predict.christmas, predict.courses, predict.garden, predict.gay, predict.hair, predict.makeup, predict.mom, predict.pics, predict.singles, predict.skin, predict.surf, predict.tattoo, predict.yachts
+
+👽 Aliens Network (22): aliens.today, aliens.beauty, aliens.best, aliens.boutique, aliens.cam, aliens.casa, aliens.christmas, aliens.codes, aliens.coupons, aliens.courses, aliens.delivery, aliens.guru, aliens.horse, aliens.makeup, aliens.mom, aliens.motorcycles, aliens.singles, aliens.skin, aliens.surf, aliens.tattoo, aliens.website, aliens.yachts</div>
+<button class="copy-btn" onclick="copyTweet('text8',this)">Copy Tweet</button>
+</div>
+
+<!-- TWEET 9 -->
+<div class="tweet" id="t9">
+<span class="tweet-num">9/13</span>
+<div class="tweet-label">Every Domain Part 2</div>
+<div class="tweet-text" id="text9">🤖 AIBot Network (12): aibot.beer, aibot.coupons, aibot.courses, aibot.delivery, aibot.directory, aibot.forum, aibot.garden, aibot.gay, aibot.poker, aibot.rest, aibot.study, aibot.tattoo
+
+🐵 Monkey Network (11): monkey.charity, monkey.coupons, monkey.courses, monkey.directory, monkey.gives, monkey.investments, monkey.poker, monkey.rent, monkey.repair, monkey.report, monkey.singles
+
+🛡️ Scam Network (11): scam.beauty, scam.courses, scam.hair, scam.horse, scam.ink, scam.makeup, scam.singles, scam.stream, scam.surf, scam.video, scam.wiki</div>
+<button class="copy-btn" onclick="copyTweet('text9',this)">Copy Tweet</button>
+</div>
+
+<!-- TWEET 10 -->
+<div class="tweet" id="t10">
+<span class="tweet-num">10/13</span>
+<div class="tweet-label">Every Domain Part 3</div>
+<div class="tweet-text" id="text10">⚡ Stimulant Network (17): stimulant.wiki, stimulant.beauty, stimulant.doctor, stimulant.guru, stimulant.homes, stimulant.life, stimulant.living, stimulant.makeup, stimulant.mom, stimulant.online, stimulant.rest, stimulant.shop, stimulant.site, stimulant.skin, stimulant.top, stimulant.website, stimulant.work
+
+🎰 Plus: spunk.bet, spunkart.com, betai.buzz, clip.christmas, sell.party, flip.ink, flip.courses, flip.garden, flip.gay, pizza.christmas, pizza.singles, sell.singles</div>
+<button class="copy-btn" onclick="copyTweet('text10',this)">Copy Tweet</button>
+</div>
+
+<!-- TWEET 11 -->
+<div class="tweet" id="t11">
+<span class="tweet-num">11/13</span>
+<div class="tweet-label">The Math</div>
+<div class="tweet-text" id="text11">The math:
+
+Domains: ~$175
+Claude Pro: $20/mo
+Claude Extra Usage: $430
+Hosting: $0 (GitHub Pages)
+CDN/SSL: $0 (Cloudflare)
+Developer cost: $0
+
+Total: $625
+
+If even 5% of these sites get traction, the affiliate revenue alone pays for everything in month 1.
+
+103 sites × even $5/mo each = $515/mo passive income.
+
+That's the bet.</div>
+<button class="copy-btn" onclick="copyTweet('text11',this)">Copy Tweet</button>
+</div>
+
+<!-- TWEET 12 -->
+<div class="tweet" id="t12">
+<span class="tweet-num">12/13</span>
+<div class="tweet-label">The Lesson</div>
+<div class="tweet-text" id="text12">The real lesson:
+
+AI didn't replace my job. I don't have a tech job.
+
+AI gave me a tech empire.
+
+5 days ago I couldn't write a line of code.
+Today I run 103 websites across 8 networks.
+
+The barrier to entry is gone. The only barrier left is starting.</div>
+<button class="copy-btn" onclick="copyTweet('text12',this)">Copy Tweet</button>
+</div>
+
+<!-- TWEET 13 -->
+<div class="tweet" id="t13">
+<span class="tweet-num">13/13</span>
+<div class="tweet-label">CTA — Final</div>
+<div class="tweet-text" id="text13">If you want to see what one person with zero experience and $625 can build in 5 days:
+
+🔮 predict.horse
+👽 aliens.today
+🎰 spunk.bet
+🤖 aibot.beer
+🐵 monkey.poker
+🛡️ scam.wiki
+⚡ stimulant.wiki
+
+All live. All free. All built by AI.
+
+Follow @SpunkArt13 for the journey.
+
+Like + RT if this is insane.</div>
+<button class="copy-btn" onclick="copyTweet('text13',this)">Copy Tweet</button>
+</div>
+
+<hr class="divider">
+
+<h2>🔥 <span>Standalone Tweets</span></h2>
+<p class="sub">Post these separately throughout the weekend for maximum reach.</p>
+
+<!-- STANDALONE 1 -->
+<div class="tweet">
+<div class="tweet-label">Shock Value</div>
+<div class="tweet-text" id="s1">I have zero coding experience.
+
+I just built 103 websites in 5 days for $625.
+
+Not a typo. One hundred and three.
+
+Each one has:
+• Custom domain
+• Full SEO
+• Analytics
+• Affiliate monetization
+• Social sharing
+• Cross-network linking
+
+My tech stack: a MacBook Air and @AnthropicAI</div>
+<button class="copy-btn" onclick="copyTweet('s1',this)">Copy Tweet</button>
+</div>
+
+<!-- STANDALONE 2 -->
+<div class="tweet">
+<div class="tweet-label">Domain Flex</div>
+<div class="tweet-text" id="s2">Domains I own:
+
+predict.horse 🐴
+aliens.beauty 👽
+scam.wiki 🛡️
+monkey.poker 🐵
+aibot.beer 🍺
+stimulant.doctor ⚡
+pizza.christmas 🍕
+flip.ink 🖋️
+sell.party 🎉
+
+103 total. All live. All earning.
+
+AI built every single one.</div>
+<button class="copy-btn" onclick="copyTweet('s2',this)">Copy Tweet</button>
+</div>
+
+<!-- STANDALONE 3 -->
+<div class="tweet">
+<div class="tweet-label">Cost Breakdown</div>
+<div class="tweet-text" id="s3">My $625 tech empire:
+
+103 domains: $175
+Claude Pro: $20/mo
+Claude extra usage: $430
+GitHub Pages: FREE
+Cloudflare CDN: FREE
+SSL certificates: FREE
+Hosting: FREE
+Analytics: FREE
+Heatmaps: FREE
+Developer: $0
+
+103 live websites. $0/month to run.
+
+The future is here and it costs less than a PS5.</div>
+<button class="copy-btn" onclick="copyTweet('s3',this)">Copy Tweet</button>
+</div>
+
+<!-- STANDALONE 4 -->
+<div class="tweet">
+<div class="tweet-label">For the AI/Tech Crowd</div>
+<div class="tweet-text" id="s4">I asked Claude to build me a website.
+
+Then I asked it to build a generator that builds websites.
+
+Then I ran the generator 103 times.
+
+Now I have:
+• 18 prediction markets
+• 22 alien/UFO sites
+• 12 AI chatbots
+• 11 scam exposure sites
+• 11 monkey-branded tools
+• 17 health/wellness sites
+• A crypto casino
+
+One person. Five days. Zero code written by a human.
+
+This is what @AnthropicAI meant by "AI for everyone."</div>
+<button class="copy-btn" onclick="copyTweet('s4',this)">Copy Tweet</button>
+</div>
+
+<!-- STANDALONE 5 -->
+<div class="tweet">
+<div class="tweet-label">Spunk.Bet Push</div>
+<div class="tweet-text" id="s5">Just launched a free crypto casino.
+
+spunk.bet
+
+• 10 games (Crash, Mines, Plinko, Dice, Slots, more)
+• 10,000 free SPUNK tokens every day
+• Provably fair
+• No signup required
+• No fees
+
+Built entirely by AI.
+
+Play now → spunk.bet</div>
+<button class="copy-btn" onclick="copyTweet('s5',this)">Copy Tweet</button>
+</div>
+
+<!-- STANDALONE 6 -->
+<div class="tweet">
+<div class="tweet-label">Prediction Markets Push</div>
+<div class="tweet-text" id="s6">Prediction markets for literally everything:
+
+Will Tesla launch Robotaxi? → predict.autos
+Will a beauty brand hit $10B? → predict.beauty
+Will AI replace junior devs? → predict.codes
+Will it snow in LA on Christmas? → predict.christmas
+Will a solo dev build a billion-dollar app? → predict.codes
+
+Free to play. Win crypto.
+
+18 niche prediction market sites. All live.</div>
+<button class="copy-btn" onclick="copyTweet('s6',this)">Copy Tweet</button>
+</div>
+
+<!-- STANDALONE 7 -->
+<div class="tweet">
+<div class="tweet-label">Engagement Bait</div>
+<div class="tweet-text" id="s7">Reply with your favorite domain name and I'll tell you if I own it.
+
+Hint: I probably do.</div>
+<button class="copy-btn" onclick="copyTweet('s7',this)">Copy Tweet</button>
+</div>
+
+<!-- STANDALONE 8 -->
+<div class="tweet">
+<div class="tweet-label">Tag Anthropic</div>
+<div class="tweet-text" id="s8">.@AnthropicAI I built 103 websites in 5 days using Claude.
+
+No coding experience. $625 total.
+
+Each site has full SEO, analytics, affiliate revenue, cross-linking, and social sharing.
+
+Your AI literally let me build a tech company from my couch in under a week.
+
+Thank you. Seriously.</div>
+<button class="copy-btn" onclick="copyTweet('s8',this)">Copy Tweet</button>
+</div>
+
+<!-- STANDALONE 9 -->
+<div class="tweet">
+<div class="tweet-label">Mystery / Engagement</div>
+<div class="tweet-text" id="s9">I spent $625 and now I own:
+
+aliens.beauty
+scam.horse
+monkey.poker
+stimulant.doctor
+predict.tattoo
+aibot.gay
+pizza.christmas
+
+This is either the dumbest or smartest thing I've ever done.
+
+Time will tell. Follow @SpunkArt13 for updates.</div>
+<button class="copy-btn" onclick="copyTweet('s9',this)">Copy Tweet</button>
+</div>
+
+<hr class="divider">
+
+<h2>📰 <span>Press Pitches</span></h2>
+<p class="sub">Open the full press pitch document for Hacker News, Reddit, IndieHackers, and email pitches.</p>
+<a href="PRESS-PITCH.md" target="_blank" class="copy-btn" style="text-decoration:none;margin-bottom:20px;margin-right:8px">Open Press Pitches →</a>
+<a href="THREAD-MAIN.md" target="_blank" class="copy-btn" style="text-decoration:none;margin-bottom:20px;background:#f59e0b">Open Raw Thread Text →</a>
+
+<hr class="divider">
+
+<h2>📸 <span>All Images — Full Gallery</span></h2>
+<p class="sub">All 6 shareable cards rendered inline. Screenshot any of them (Cmd+Shift+4) or click to open full size.</p>
+
+<div style="display:flex;flex-direction:column;gap:20px;margin-top:20px">
+
+<div>
+<div style="font-weight:700;margin-bottom:8px;color:#a855f7">🏆 Hero Card — "103 Websites in 5 Days"</div>
+<div class="card-frame" id="frame-hero-gallery"></div>
+<a href="card-hero.html" target="_blank" class="save-btn" style="margin-top:8px">Open Full Size →</a>
+</div>
+
+<div>
+<div style="font-weight:700;margin-bottom:8px;color:#22c55e">🛠️ Tech Stack</div>
+<div class="card-frame" id="frame-tools-gallery"></div>
+<a href="card-tools.html" target="_blank" class="save-btn" style="margin-top:8px">Open Full Size →</a>
+</div>
+
+<div>
+<div style="font-weight:700;margin-bottom:8px;color:#a855f7">🌐 All 8 Networks</div>
+<div class="card-frame" id="frame-stack-gallery"></div>
+<a href="card-stack.html" target="_blank" class="save-btn" style="margin-top:8px">Open Full Size →</a>
+</div>
+
+<div>
+<div style="font-weight:700;margin-bottom:8px;color:#f59e0b">🏷️ All 103 Domains (Color-Coded)</div>
+<div class="card-frame" id="frame-alldomains-gallery"></div>
+<a href="card-all-domains.html" target="_blank" class="save-btn" style="margin-top:8px">Open Full Size →</a>
+</div>
+
+<div>
+<div style="font-weight:700;margin-bottom:8px;color:#ef4444">🗂️ All Domains (Compact)</div>
+<div class="card-frame" id="frame-domains-gallery"></div>
+<a href="card-domains.html" target="_blank" class="save-btn" style="margin-top:8px">Open Full Size →</a>
+</div>
+
+<div>
+<div style="font-weight:700;margin-bottom:8px;color:#22c55e">📊 Day 5 Results</div>
+<div class="card-frame" id="frame-results-gallery"></div>
+<a href="card-results.html" target="_blank" class="save-btn" style="margin-top:8px">Open Full Size →</a>
+</div>
+
+</div>
+
+<div style="height:60px"></div>
+
+<script>
+function copyTweet(id, btn) {
+  const text = document.getElementById(id).innerText;
+  navigator.clipboard.writeText(text).then(() => {
+    btn.classList.add('copied');
+    btn.innerText = 'Copied!';
+    setTimeout(() => {
+      btn.classList.remove('copied');
+      btn.innerText = 'Copy Tweet';
+    }, 2000);
+  });
+}
+
+// Embed cards as scaled iframes
+function embedCard(containerId, src) {
+  const container = document.getElementById(containerId);
+  if (!container) return;
+  const w = container.clientWidth;
+  const scale = w / 1200;
+  const iframe = document.createElement('iframe');
+  iframe.src = src;
+  iframe.style.width = '1200px';
+  iframe.style.height = '675px';
+  iframe.style.border = 'none';
+  iframe.style.transform = `scale(${scale})`;
+  iframe.style.transformOrigin = 'top left';
+  iframe.style.pointerEvents = 'none';
+  container.style.height = Math.round(675 * scale) + 'px';
+  container.style.overflow = 'hidden';
+  container.appendChild(iframe);
+}
+
+// Embed in thread tweets
+embedCard('frame-hero', 'card-hero.html');
+embedCard('frame-tools', 'card-tools.html');
+embedCard('frame-stack', 'card-stack.html');
+embedCard('frame-results', 'card-results.html');
+embedCard('frame-alldomains', 'card-all-domains.html');
+
+// Embed in gallery
+embedCard('frame-hero-gallery', 'card-hero.html');
+embedCard('frame-tools-gallery', 'card-tools.html');
+embedCard('frame-stack-gallery', 'card-stack.html');
+embedCard('frame-alldomains-gallery', 'card-all-domains.html');
+embedCard('frame-domains-gallery', 'card-domains.html');
+embedCard('frame-results-gallery', 'card-results.html');
+</script>
+</body>
+</html>
