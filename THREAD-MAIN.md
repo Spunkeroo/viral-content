@@ -32,16 +32,14 @@ No React. No Next.js. No frameworks. No employees.
 
 ## TWEET 3 (The Process)
 
-Day 1: Bought 103 domains in bulk. Wild TLDs nobody thinks about.
+Every day I bought more domains and built sites immediately.
 
-predict.horse
-aliens.beauty
-scam.wiki
-monkey.poker
-stimulant.doctor
-aibot.beer
+Day 1: predict.horse, aliens.today, spunk.bet
+Day 2: scam.wiki, aibot.beer, monkey.poker
+Day 3: stimulant.wiki, flip.ink, pizza.christmas
+Day 4-5: Filled out every network
 
-$3-8 each. Some were $0.99.
+$1-8 each. Some were $0.99. Wild TLDs nobody thinks about.
 
 The domain IS the brand. No .com needed.
 
@@ -49,7 +47,7 @@ The domain IS the brand. No .com needed.
 
 ## TWEET 4 (The Build — attach card-stack.html screenshot)
 
-Day 2-3: Built the generators.
+The secret weapon: generators.
 
 I told Claude what I wanted. It wrote Python scripts that generate entire websites.
 
@@ -64,7 +62,7 @@ Each site: unique content, SEO, analytics, affiliate links, sharing features.
 
 ## TWEET 5 (The Networks)
 
-Day 4: Connected everything into networks.
+Then I connected everything into networks.
 
 Every site cross-links to every other site in its network.
 Every network links to every other network.

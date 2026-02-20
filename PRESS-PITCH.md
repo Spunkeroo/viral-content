@@ -76,7 +76,7 @@ So I did.
 Each site has: custom domain, full SEO meta tags, Google Analytics, Microsoft Clarity heatmaps, affiliate links, social sharing, referral systems, cross-network linking, and Firebase analytics.
 
 **The approach:**
-Instead of building 103 sites one by one, I had Claude build generators — Python scripts that produce entire networks of sites from config files. Change the config, run the script, get a new site.
+Every day I bought more domains and built sites immediately. Instead of building them one by one, I had Claude build generators — Python scripts that produce entire networks of sites from config files. Change the config, run the script, get a new site.
 
 **Revenue potential:**
 Every site has multiple monetization paths: affiliate links for Coinbase, Ledger, Stake, Amazon, etc. Even at $5/month per site average, that's $515/month passive.
